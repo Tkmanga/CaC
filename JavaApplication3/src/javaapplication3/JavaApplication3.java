@@ -211,6 +211,7 @@ public class JavaApplication3 {
             System.out.println("faltan "+(alumnos-sillas)+" sillas ");
         }
         */
+        /*
         10)Desarrollar un algoritmo que, dados dos números enteros entre 0 y 100,
         la computadora indique si el mayor es divisible por el menor. Ejemplo:
         Ingresa 4 y 28, debe imprimir “28 es divisible por 4”. Se deberá validar
