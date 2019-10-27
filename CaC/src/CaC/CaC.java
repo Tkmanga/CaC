@@ -17,6 +17,50 @@ public class CaC {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+                // TODO code application logic here
+        /*
+        System.out.println("Texto\nen\nlineas\nseparadas");
+        System.out.println("Esto no se ve \rCarro retornado");
+        System.out.println("Borro espacio \ba la izquierda");
+        System.out.println("Imprimo una barra invertida: \\");
+        System.out.println("Imprimo una comilla simple: \'");
+        System.out.println("Imprimo una comilla doble\"");
+        */
+        /*
+        int a; 
+        int b; 
+        System.out.println("Ingresa un numero: ");
+        a = entrada.nextInt(); 
+        System.out.println("Ingresa otro numero: ");
+        b = entrada.nextInt(); 
+        System.out.println("La suma de ambos es "+ (a+b));
+        */   
+        /*
+        char caracter; 
+        System.out.println("Ingrese un texto: ");
+        caracter = entrada.next().charAt(0); 
+        System.out.println("Se detecto el caracter: "+ caracter);
+        */
+        
+        /*
+        String nombre; 
+        System.out.println("Ingrese un nombre: ");
+        nombre = entrada.nextLine(); 
+        System.out.println("Hola "+nombre);
+        */
+        /*
+        int edad;
+        String nombre;
+        
+        System.out.println("Ingresa tu edad: ");
+        edad = entrada.nextInt(); 
+        entrada.nextLine(); //Limpiamos el buffer, ya que si no lo hacemos no lee lo siguiente 
+        System.out.println("Ingresa tu nombre: ");
+        nombre = entrada.nextLine(); 
+        System.out.println("Hola "+ nombre + " tenes "+ edad + " años ");
+        */
+        
+        
         // TODO code application logic here
         
         /*
