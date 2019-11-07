@@ -660,6 +660,8 @@ public class CaC {
         esos 3 intentos. Si acertamos la clave, saldremos directamente del
         programa. Utilice la instrucción while.
         */
+        
+        /*
         Scanner entradaEscaner = new Scanner (System.in); 
         
         String a = "eureka"; 
@@ -676,7 +678,139 @@ public class CaC {
             }
             
             contador++; 
-        }    
+        }
+        */
+        /*
+        26)Realizar un programa que lea números enteros hasta teclear 0, y nos
+        muestre el máximo, el mínimo (sin considerar el 0) y la media (promedio)
+        de todos ellos. Piensa cómo debemos inicializar las variables. Utilice la
+        instrucción while.
+        */
+        
+        /*
+        Scanner entradaEscaner = new Scanner (System.in);
+        int usuario; 
+        int maximo; 
+        int minimo; 
+        int contador = -1; 
+        int acumulador; 
+        double media = 0; 
+        
+        System.out.println("ingrese numeros: ");
+        usuario = entradaEscaner.nextInt();
+        maximo = usuario;
+        minimo = usuario;
+        acumulador = usuario; 
+        contador++; 
+        
+        while (usuario!=0) {
+            
+            System.out.println("Ingrese numero: ");
+            usuario = entradaEscaner.nextInt(); 
+            
+            acumulador+=usuario; 
+            
+            if (maximo<usuario && usuario!=0) {
+                maximo=usuario; 
+            }
+            
+            if(minimo>usuario && usuario!=0) {
+                minimo=usuario;
+            }
+            contador=contador+1; 
+        }
+        media = acumulador/contador; 
+        System.out.println("El promedio es: " + media);
+        System.out.println("El maximo numero ingresado es: "+maximo);
+        System.out.println("El minimo numero ingresado es: "+minimo);
+        */
+        
+        /*
+        27)Desarrollar un algoritmo que permita al usuario ingresar 12 valores, de a
+        uno por vez, pertenecientes a sus sueldos mensuales durante un año. La
+        computadora muestra su sueldo anual. Si durante la carga de los sueldos
+        mensuales se detecta un valor negativo, esto indica que aún no se ha
+        cobrado el mes en curso, por lo tanto, deben dejar de ingresarse datos y
+        la computadora debe mostrar la sumatoria de sueldos que se llevan
+        cobrados hasta dicho mes.
+        */
+        /*
+        double sumatoriaSueldos = 0; 
+        Scanner entradaEscaner = new Scanner (System.in);
+        int i = 0; 
+        int numUsuario = 0; 
+        int acumulador = 0; 
+        while(i<12 && numUsuario>=0) {
+            System.out.println("Ingrese el sueldo: ");
+            numUsuario = entradaEscaner.nextInt(); 
+            if (numUsuario>-1) {
+                acumulador+=numUsuario; 
+                i++;
+            }
+            
+        }
+        System.out.println("Al mes "+i+" hay en total: "+acumulador+" en concepto de sueldos.");
+        */
+        /*
+        28)Crear un programa que pida al usuario un usuario y una contraseña.
+        Deberá repetirse hasta que el usuario sea "admin" y la contraseña sea
+        "1234".
+        */
+        /*
+        int contrasenia = 1234;
+        Scanner entradaEscaner = new Scanner (System.in);
+        String usuario = "admin"; 
+        String usuarioUsuario= "";
+        int contraseniaUsuario = 0; 
+        while (contraseniaUsuario!=contrasenia && !usuarioUsuario.equals(usuario))
+        {
+            System.out.println("Ingrese el usuario");
+            usuarioUsuario = entradaEscaner.next(); 
+            System.out.println("Ingrese la contraseña");
+            contraseniaUsuario = entradaEscaner.nextInt(); 
+        }
+        System.out.println("Lo lograste ! ");
+        */
+        /*
+        29)Hacer un programa que permita calcular la suma de pares de números.
+        Pedirá dos números al usuario y mostrará su suma, volviendo a repetir
+        hasta que ambos números introducidos sean 0.
+        */
+        /*
+        Scanner entradaEscaner = new Scanner (System.in);
+        int numUsu1 = -1; 
+        int numUsu2 = -1; 
+        while (numUsu1!=0 && numUsu2!=0) {
+            System.out.println("Ingrese el primer numero: ");
+            numUsu1 = entradaEscaner.nextInt(); 
+            System.out.println("Ingrese el segundo numero: ");
+            numUsu2 = entradaEscaner.nextInt();
+            if (numUsu1!= 0 && numUsu2!=0) {
+                System.out.println("La suma es "+ (numUsu1+numUsu2));
+            }
+        }
+        */
+        /*
+        30)Realizar un programa que divida dos números que introduzca el usuario.
+        Si el segundo número es cero, se le deberá avisar y volver a pedir tantas
+        veces como sea necesario, hasta que introduzca un número distinto de
+        cero, momento en que se calculará y mostrará el resultado de la división.
+        */
+        
+        Scanner entradaEscaner = new Scanner (System.in);
+        int numUsu1 = -1; 
+        int numUsu2 = -1; 
+        System.out.println("Ingrese el primer numero: ");
+        numUsu1 = entradaEscaner.nextInt(); 
+            
+        System.out.println("Ingrese el segundo numero: ");
+        numUsu2 = entradaEscaner.nextInt();
+        
+        while(numUsu2==0){
+            System.out.println("Ingrese el segundo numero: ");
+            numUsu2 = entradaEscaner.nextInt();
+        }
+        System.out.println("La divi es "+ (numUsu1/numUsu2));
     }
     
 }
