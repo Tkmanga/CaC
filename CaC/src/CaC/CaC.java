@@ -603,7 +603,7 @@ public class CaC {
         un cero. Se pide calcular y mostrar el número de valor máximo y el mínimo
         (utilice do-while).
         */
-        
+        /*
         Scanner teclado = new Scanner(System.in);
         int acumulador =0;
         int variable=-1; 
@@ -627,7 +627,56 @@ public class CaC {
         
         System.out.println("El valor maximos es: "+valorMax);
         System.out.println("El valor minimo es: "+valorMin);
-
+        */
+        
+        /*
+        24)Ingresar por teclado los pesos (en Kg)
+        de los alumnos de un curso. La carga finaliza cuando el peso ingresado
+        es igual a 0. Se pide averiguar cual es el promedio de los pesos y
+        mostrarlo con 2 decimales Utilice la instrucción do-while.
+        */
+        /*
+        Scanner entradaEscaner = new Scanner (System.in); 
+        DecimalFormat df = new DecimalFormat("#.00"); 
+        
+        double peso = 0;
+        double pesoUsuario =0; 
+        int contador = -1; 
+        do {            
+            System.out.println("Ingrese el peso del alumno");
+            pesoUsuario=entradaEscaner.nextInt(); 
+            peso+=pesoUsuario; 
+            contador+=1; 
+        } while (pesoUsuario!=0);
+        peso = peso/contador; 
+        System.out.println("El promedio es: "+df.format(peso)+" kg");
+        */
+        
+        
+        /*
+        25)Teniendo en cuenta que la clave es “eureka”, escribir un algoritmo que
+        nos pida una clave. Solo tenemos 3 intentos para acertar, si fallamos los
+        3 intentos nos mostrará un mensaje indicándonos que hemos agotado
+        esos 3 intentos. Si acertamos la clave, saldremos directamente del
+        programa. Utilice la instrucción while.
+        */
+        Scanner entradaEscaner = new Scanner (System.in); 
+        
+        String a = "eureka"; 
+        String claveUsuario = ""; 
+        int contador = 0; 
+        while (contador<3) {
+            System.out.println("Ingrese la clave");
+            claveUsuario = entradaEscaner.next(); 
+            if (claveUsuario.equals(a)) {
+                System.out.println("Ingreso al sistema!");
+                contador=3;  
+            }else {
+                System.out.println("Fallo");
+            }
+            
+            contador++; 
+        }    
     }
     
 }
