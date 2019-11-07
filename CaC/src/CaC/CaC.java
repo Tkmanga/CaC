@@ -603,16 +603,30 @@ public class CaC {
         un cero. Se pide calcular y mostrar el número de valor máximo y el mínimo
         (utilice do-while).
         */
+        
         Scanner teclado = new Scanner(System.in);
         int acumulador =0;
         int variable=-1; 
+        int valorMax = 0; 
+        int valorMin = 100; 
+        boolean bandera=true; 
+        
         do 
         {
             System.out.println("Ingrese un numero: ");
             variable=teclado.nextInt(); 
             acumulador+=variable; 
+        
+            if (valorMax<variable) {
+                valorMax=variable; 
+            }
+            if (valorMin>variable && variable!=-1) {
+                valorMin=variable;
+            }
         }while(variable!=0);
         
+        System.out.println("El valor maximos es: "+valorMax);
+        System.out.println("El valor minimo es: "+valorMin);
 
     }
     
