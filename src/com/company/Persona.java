@@ -5,12 +5,36 @@ public class Persona {
     private double  altura;
     private int edad;
     private String genero;
+    private String colorOjos;
+    private String sexo;
+
+    //constructores
+
+    public Persona (){}
 
     public Persona(String nombre, double altura, int edad, String genero) {
         this.nombre = nombre;
         this.altura = altura;
         this.edad = edad;
         this.genero = genero;
+    }
+
+    //getters and setters
+
+    public String getColorOjos() {
+        return colorOjos;
+    }
+
+    public void setColorOjos(String colorOjos) {
+        this.colorOjos = colorOjos;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
     public String getNombre() {
