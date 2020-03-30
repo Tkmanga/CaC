@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3cdd4092-9c5f-4be3-a8bf-022621c49b75" name="Default Changelist" comment="" />
+    <list default="true" id="3cdd4092-9c5f-4be3-a8bf-022621c49b75" name="Default Changelist" comment="contenido basico">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cac/presencial/introduccionPOO/CuentaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Gato.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,6 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1ZLn3ISEVy8kiNDf7Hen55ZPIB0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -60,17 +74,39 @@
       <workItem from="1584627056857" duration="5147000" />
       <workItem from="1584721656184" duration="168000" />
       <workItem from="1584722089681" duration="464000" />
+      <workItem from="1585272142686" duration="96000" />
+      <workItem from="1585515275195" duration="1639000" />
     </task>
+    <task id="LOCAL-00001" summary="contenido basico">
+      <created>1585272187864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585272187864</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="contenido basico" />
+    <option name="LAST_COMMIT_MESSAGE" value="contenido basico" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1584632167583">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1584632167583" />
+    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585272212362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585272212362" />
+    <state x="1065" y="134" key="CommitChangelistDialog2" timestamp="1585532252218">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1065" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585532252218" />
     <state width="639" height="149" key="GridCell.Tab.0.bottom" timestamp="1584631679128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -87,6 +123,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="639" height="149" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584631679128" />
+    <state x="1032" y="273" key="Vcs.Push.Dialog.v2" timestamp="1585272189393">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1032" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585272189393" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1584722098503">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

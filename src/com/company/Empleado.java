@@ -1,6 +1,7 @@
 package com.company;
 
 public class Empleado {
+
     private String nombre;
     private String cedula;
     private int edad;
@@ -22,7 +23,8 @@ public class Empleado {
 
     public void aumentarSalario(double porcentaje){
         double salario = this.getSalario();
-        salario = (salario*porcentaje)
+        salario = salario + (salario*(porcentaje/100));
+        this.setSalario(salario);
     }
 
     @Override

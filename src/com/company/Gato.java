@@ -25,6 +25,7 @@ public class Gato {
     public String jugar(){
         return "jugando..";
     }
+
     public String getNombre() {
         return nombre;
     }
