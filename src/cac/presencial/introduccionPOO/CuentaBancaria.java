@@ -1,6 +1,7 @@
-package com.company;
+package cac.presencial.introduccionPOO;
 
 public class CuentaBancaria {
+
     private int saldo;
 
     public void depositar(int a){

@@ -800,7 +800,8 @@ public class Main {
         System.out.println("La divi es "+ (numUsu1/numUsu2));
 
          */
+        DiscoMusical disco1 = new DiscoMusical("disco1","yo",2020,"dvd",false);
+        System.out.println(disco1.toString());
 
-        System.out.printf("Probando probando");
     }
 }
