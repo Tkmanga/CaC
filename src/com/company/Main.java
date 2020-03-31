@@ -28,7 +28,6 @@ public class Main {
         caracter = entrada.next().charAt(0);
         System.out.println("Se detecto el caracter: "+ caracter);
         */
-
         /*
         String nombre;
         System.out.println("Ingrese un nombre: ");
@@ -46,17 +45,13 @@ public class Main {
         nombre = entrada.nextLine();
         System.out.println("Hola "+ nombre + " tenes "+ edad + " años ");
         */
-
-
         // TODO code application logic here
-
         /*
         Ejercicio 1
         Ingresar el área de un cuadrado por teclado utilizando un objeto Scanner.
         Calcular e imprimir el valor del perímetro. Ejemplo: Ingresa 25, debe
         devolver 20.
         */
-
         /*
         // Declaramos la variable que recibe el area del cuadrado
         int variable;
@@ -73,8 +68,6 @@ public class Main {
         //devuelvo
         System.out.println("El perimetro es: "+variable);
         */
-
-
         /*
         Ejercicio 2
         Desarrollar un algoritmo que permita ingresar dos números enteros por
@@ -93,7 +86,6 @@ public class Main {
         resultado = variable1%variable2;
         System.out.println("El resto de ambos numeros es: "+((int)resultado));
         */
-
         /*
         Ejercicio 3
         Desarrollar un algoritmo que permita ingresar dos números enteros por
@@ -110,7 +102,6 @@ public class Main {
         double resultado = variable1%variable2;
         System.out.println("El resto de ambos numeros es: "+(resultado));
         */
-
         /*
         Ejercicio 4
         Ingresar por teclado el diámetro (tipo de dato entero) de un círculo y
@@ -149,7 +140,6 @@ public class Main {
         System.out.println("Perimetro: "+perimetro);
         System.out.println("Superficie: "+superficie);
         */
-
         /*
         Ejercicio 6
         Ingresar por teclado los lados de un triángulo rectángulo (valores enteros)
@@ -175,7 +165,6 @@ public class Main {
         System.out.println("Perimetro: "+perimetro);
         System.out.println("Superficie: "+superficie);
         */
-
         /*
         Ejercicio 7
         Codifique un programa en Java que permita saber si un número ingresado
@@ -191,7 +180,6 @@ public class Main {
             System.out.println("Es impar");
         }
         */
-
         /*
         Ejercicio 8
         Desarrollar un algoritmo que, dada la edad de una persona (entre 1 y 120 años)
@@ -220,7 +208,6 @@ public class Main {
             System.out.println("No se jubila");
         }
         */
-
         /*
         Ejercicio 9
         Desarrollar un algoritmo que, dada la
@@ -228,7 +215,6 @@ public class Main {
         computadora indique si alcanzan las sillas, en caso contrario, indique cuántas
         faltan para que todo el alumnado tenga asiento.
         */
-
         /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese la cantidad de alumnos: ");
@@ -248,7 +234,6 @@ public class Main {
         Ingresa 4 y 28, debe imprimir “28 es divisible por 4”. Se deberá validar
         que los números ingresados se encuentren entre 0 y 100.
         */
-
         /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese el primer numero: ");
@@ -285,7 +270,6 @@ public class Main {
         desiguales. Ejemplo: Se ingresa un 3, 4 y 5, la computadora muestra:
         “Es un triángulo escaleno”.
         */
-
         /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese el lado A: ");
@@ -308,7 +292,6 @@ public class Main {
             System.out.println("no se cumple la primera forma");
         }
         */
-
         /*
         12)Desarrollar un algoritmo que permita ingresar un caracter. La
         computadora indica si es o no una letra vocal (utilice switch-case).
@@ -337,7 +320,6 @@ public class Main {
                 System.out.println("No es una vocal");
         }
         */
-
         /*
         13)Desarrollar un algoritmo que pida al usuario un número entre 1 y 12. La
         computadora muestra por pantalla el mes al que pertenece tal número. Si
@@ -389,7 +371,6 @@ public class Main {
                 System.out.println("ingreso un numero de mes invalido");
         }
         */
-
         /*
         14)Desarrollar un algoritmo que permita el ingreso de una letra,
         correspondiente a un dígito del sistema de numeración romano. La
@@ -397,7 +378,6 @@ public class Main {
         letra inexistente, computadora informa que no existe tal dígito. Ejemplo:
         Se ingresa 'D', la computadora muestra: 500.
         */
-
         /*
         15)Desarrollar un algoritmo que simule una calculadora básica que realice
         operaciones de suma, resta, multiplicación y división. Se deben recibir
@@ -440,7 +420,6 @@ public class Main {
         }
 
         */
-
         /*
         16)Codifique un programa en Java que permita el ingreso de un número, y a
         partir de ello, mostrar los diez números siguientes al mismo. Resuelva el
@@ -469,12 +448,10 @@ public class Main {
             System.out.println("vamos: "+i);
         }
         */
-
         /*
         17)Ingresar por teclado 1 número entero y mostrar por pantalla su tabla de
         multiplicar entre 1 y 10 (usando la instrucción for).
         */
-
         /*
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese el numero: ");
@@ -483,7 +460,6 @@ public class Main {
             System.out.println(vari1+" x "+i+" = "+ (i*vari1));
         }
         */
-
         /*
         18)Ingresar por teclado 1 número entero y
         mostrar por pantalla su tabla de multiplicar entre 1 y 10 (usando la
@@ -500,7 +476,6 @@ public class Main {
 
         }
         */
-
         /*
         19)Crear un programa que muestre en pantalla una escalera inversa de
         asteriscos. La cantidad de filas de la escalera se ingresa por teclado.
@@ -525,7 +500,6 @@ public class Main {
             System.out.println("");
         }
         */
-
         /*
         20)Desarrollar un algoritmo que permita ingresar un número N. Acto seguido,
         permitir ingresar N números enteros, correspondientes a las notas de un
@@ -560,7 +534,6 @@ public class Main {
 
         System.out.println("Factorial "+factorial);
         */
-
         /*
         22)Crear un programa que muestre en pantalla una escalera de asteriscos.
         La cantidad de filas de la escalera deberá ser una constante. Utilice la
@@ -615,7 +588,6 @@ public class Main {
         System.out.println("El valor maximos es: "+valorMax);
         System.out.println("El valor minimo es: "+valorMin);
         */
-
         /*
         24)Ingresar por teclado los pesos (en Kg)
         de los alumnos de un curso. La carga finaliza cuando el peso ingresado
@@ -638,8 +610,6 @@ public class Main {
         peso = peso/contador;
         System.out.println("El promedio es: "+df.format(peso)+" kg");
         */
-
-
         /*
         25)Teniendo en cuenta que la clave es “eureka”, escribir un algoritmo que
         nos pida una clave. Solo tenemos 3 intentos para acertar, si fallamos los
@@ -647,7 +617,6 @@ public class Main {
         esos 3 intentos. Si acertamos la clave, saldremos directamente del
         programa. Utilice la instrucción while.
         */
-
         /*
         Scanner entradaEscaner = new Scanner (System.in);
 
@@ -673,7 +642,6 @@ public class Main {
         de todos ellos. Piensa cómo debemos inicializar las variables. Utilice la
         instrucción while.
         */
-
         /*
         Scanner entradaEscaner = new Scanner (System.in);
         int usuario;
@@ -711,7 +679,6 @@ public class Main {
         System.out.println("El maximo numero ingresado es: "+maximo);
         System.out.println("El minimo numero ingresado es: "+minimo);
         */
-
         /*
         27)Desarrollar un algoritmo que permita al usuario ingresar 12 valores, de a
         uno por vez, pertenecientes a sus sueldos mensuales durante un año. La
@@ -800,6 +767,7 @@ public class Main {
         System.out.println("La divi es "+ (numUsu1/numUsu2));
 
          */
+
         DiscoMusical disco1 = new DiscoMusical("disco1","yo",2020,"dvd",false);
         System.out.println(disco1.toString());
 
