@@ -38,6 +38,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -119,6 +122,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="agregando ejemplos de getters y setters" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Project_Structure" timestamp="1585666511858">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1585666511858" />
     <state x="686" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1585582028426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -160,9 +167,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584722098503" />
-    <state x="1249" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585272162574">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585666417887">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1585666417887" />
     <state x="1249" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585272162574" />
     <state x="65" y="4" key="new project wizard" timestamp="1584722553337">
       <screen x="0" y="0" width="1366" height="768" />
