@@ -43,9 +43,10 @@ public class Main {
         }
 
         Scanner teclado = new Scanner(System.in);
+        String letra = teclado.nextLine();
+        
 
-
-        System.out.println(arrayList2);
+        //System.out.println(arrayList2);
 
 
     }
