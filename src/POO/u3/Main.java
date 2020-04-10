@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         /*
         * Crea una clase cuyo método main ejecute una comparación letra a letra usando equals de dos
         palabras usando bucles. Ejemplo: si las palabras son “avispa” y “ave” el programa debe dar
@@ -22,8 +22,8 @@ public class Main {
         funcionamiento de la clase anteriormente creada.
         * */
         //compararDosStrings(a,b);
-        Animal perro1 = new Animal("Perro","pepe");
-        Animal perro2 = new Animal("Perro","pepe");
+        Animal perro1 = new Animal("Perro", "pepe");
+        Animal perro2 = new Animal("Perro", "pepe");
         System.out.println(perro1.equals(perro2));
         ArrayList<String> arrayList = new ArrayList<String>();
         arrayList.add("lalo1");
@@ -38,18 +38,83 @@ public class Main {
         arrayList.add("lalo10");
 
         ArrayList<Integer> arrayList2 = new ArrayList<Integer>();
-        for(int i = 1; i<=10;i++){
-            arrayList2.add((int) (Math.random()*100)+1);
+        for (int i = 1; i <= 10; i++) {
+            arrayList2.add((int) (Math.random() * 100) + 1);
+        }
+/*
+        arrayList2.add(1);
+        Scanner teclado = new Scanner(System.in);
+        int letra = teclado.nextInt();
+        boolean bandera = false;
+        for(int i = 0; i<arrayList2.size(); i++){
+            if(arrayList2.get(i) == letra){
+                System.out.println("esta aqui en el slot "+i);
+                bandera = true;
+                break;
+            }
+        }
+        if(!bandera){
+            System.out.println("No se encontro su numero");
         }
 
+ */
+        //System.out.println(arrayList2);
+/*
+        System.out.println(queValorTiene(arrayList, 4));
+        System.out.println(eliminarValor(arrayList, 4));
+        System.out.println(queValorTiene(arrayList, 4));
+        System.out.println(agregarValor(arrayList, 4));
+        System.out.println(queValorTiene(arrayList, 4));
+        System.out.println(maxYmin(arrayList2));
+
+
+ */
+        System.out.println(avg(arrayList2));
+
+        Futbolista f1 = new Futbolista("jose",4,Posicion.DEFENSOR);
+        System.out.println(f1.toString());
+    }
+    public static String queValorTiene(ArrayList<String> a,int indice){
+        return a.get(indice);
+    }
+    public static String eliminarValor(ArrayList<String> a,int indice){
+        a.remove(indice);
+        return "se elimino el indice";
+    }
+    public static String agregarValor(ArrayList<String> a,int indice){
         Scanner teclado = new Scanner(System.in);
         String letra = teclado.nextLine();
-        
-
-        //System.out.println(arrayList2);
-
-
+        a.set(indice,letra);
+        return "se reemplazo el indice";
     }
+
+    public static double avg (ArrayList<Integer> a){
+        double avg = 0;
+
+        for(int i = 0; i<a.size();i++){
+            avg += a.get(i);
+        }
+        return avg/a.size();
+    }
+
+    public static String maxYmin(ArrayList<Integer>a){
+        double max = 0;
+        for(int i = 0; i<a.size();i++) {
+            if (a.get(i) > max) {
+                max = a.get(i);
+            }
+
+        }
+        double min = max;
+        for(int i = 0; i<a.size();i++){
+            if(a.get(i) < min){
+                min = a.get(i);
+            }
+        }
+
+        return "el  maximo es "+max+" y el minimo es "+min;
+    }
+
 
     public static String compararDosStrings(String a, String b){
         /*
