@@ -1,4 +1,4 @@
-package POO.u4;
+package POO.u4.herencia;
 
 public class Operario extends Empleado{
     public Operario(String nombre) {

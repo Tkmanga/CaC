@@ -1,6 +1,6 @@
-package POO.u4;
+package POO.u4.herencia;
 
-public class Tecnico extends Operario {
+final class Tecnico extends Operario {
     public Tecnico(String nombre) {
         super(nombre);
     }

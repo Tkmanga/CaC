@@ -1,6 +1,6 @@
-package POO.u4;
+package POO.u4.herencia;
 
-public class Directivo extends Empleado {
+final class Directivo extends Empleado {
 
     public Directivo(String nombre) {
         super(nombre);
