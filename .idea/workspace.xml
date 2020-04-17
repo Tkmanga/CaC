@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cdd4092-9c5f-4be3-a8bf-022621c49b75" name="Default Changelist" comment="Actividades Unidad 4 me quede en el ejercicio 9">
-      <change afterPath="$PROJECT_DIR$/src/POO/u3/madera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/u4/cuenta/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/u4/supermercado/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/u4/supermercado/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/u4/supermercado/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POO/u4/supermercado/Supermercado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cac/POO/u4/cuenta/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cac/POO/u4/cuenta/Cuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cac/POO/u4/cuenta/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cac/POO/u4/cuenta/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cac/POO/u4/cuenta/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cac/POO/u4/cuenta/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/u3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/u3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/u4/cuenta/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/u4/cuenta/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/u4/cuenta/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/u4/cuenta/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POO/u4/cuenta/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POO/u4/cuenta/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/cac/POO/u3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cac/POO/u3/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jproyects/jsProyects" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -194,7 +182,8 @@
       <workItem from="1587044432300" duration="12668000" />
       <workItem from="1587081413429" duration="1403000" />
       <workItem from="1587084019357" duration="1385000" />
-      <workItem from="1587128734685" duration="7887000" />
+      <workItem from="1587128734685" duration="8044000" />
+      <workItem from="1587143378026" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="contenido basico">
       <created>1585272187864</created>
@@ -238,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586996802665</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Actividades Unidad 4 me quede en el ejercicio 9">
+      <created>1587137758067</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587137758067</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,38 +287,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="779" y="231" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1587084389158" />
-    <state x="1065" y="134" key="CommitChangelistDialog2" timestamp="1587072224439">
+    <state x="1065" y="134" key="CommitChangelistDialog2" timestamp="1587137757544">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1065" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587072224439" />
+    <state x="1065" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587137757544" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1586376122648">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586376122648" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1586482284315">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1587144001021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586482284315" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom" timestamp="1587137426359">
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1587144001021" />
+    <state width="1877" height="179" key="GridCell.Tab.0.bottom" timestamp="1587137771399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586359139807" />
-    <state width="1877" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587137426359" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center" timestamp="1587137426359">
+    <state width="1877" height="179" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1587137771399" />
+    <state width="1877" height="179" key="GridCell.Tab.0.center" timestamp="1587137771399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586359139806" />
-    <state width="1877" height="179" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587137426359" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left" timestamp="1587137426358">
+    <state width="1877" height="179" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1587137771399" />
+    <state width="1877" height="179" key="GridCell.Tab.0.left" timestamp="1587137771399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586359139806" />
-    <state width="1877" height="179" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587137426358" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right" timestamp="1587137426359">
+    <state width="1877" height="179" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1587137771399" />
+    <state width="1877" height="179" key="GridCell.Tab.0.right" timestamp="1587137771399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586359139807" />
-    <state width="1877" height="179" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587137426359" />
+    <state width="1877" height="179" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1587137771399" />
     <state width="914" height="360" key="GridCell.Tab.1.bottom" timestamp="1587084827797">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -355,10 +351,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="470" y="100" key="VCS.ChangeListViewerDialog/0.0.1366.768@0.0.1366.768" timestamp="1585666408905" />
-    <state x="1032" y="273" key="Vcs.Push.Dialog.v2" timestamp="1586996807482">
+    <state x="1032" y="273" key="Vcs.Push.Dialog.v2" timestamp="1587137760799">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1032" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586996807482" />
+    <state x="1032" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587137760799" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1586482202896">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
