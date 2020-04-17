@@ -22,6 +22,8 @@ public class Main {
         funcionamiento de la clase anteriormente creada.
         * */
         //compararDosStrings(a,b);
+
+        /*
         Animal perro1 = new Animal("Perro", "pepe");
         Animal perro2 = new Animal("Perro", "pepe");
         System.out.println(perro1.equals(perro2));
@@ -41,6 +43,8 @@ public class Main {
         for (int i = 1; i <= 10; i++) {
             arrayList2.add((int) (Math.random() * 100) + 1);
         }
+
+         */
 /*
         arrayList2.add(1);
         Scanner teclado = new Scanner(System.in);
@@ -69,10 +73,19 @@ public class Main {
 
 
  */
+        /*
         System.out.println(avg(arrayList2));
 
         Futbolista f1 = new Futbolista("jose",4,Posicion.DEFENSOR);
         System.out.println(f1.toString());
+
+         */
+
+        madera[] maderas = madera.values();
+        for (madera madera: maderas
+             ) {
+            System.out.println(madera.cuantoCuesta(2.27));
+        }
     }
     public static String queValorTiene(ArrayList<String> a,int indice){
         return a.get(indice);

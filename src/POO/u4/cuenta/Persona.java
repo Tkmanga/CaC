@@ -5,23 +5,30 @@ public class Persona {
     private String nombre;
     private int edad;
     private String sexo;
-
+    private Cuenta cuenta;
 
     public Persona(String dni) {
-        this.Persona(dni,"",0,"");
-
+        this.dni = dni;
+        this.nombre = "";
+        this.edad = 0;
+        this.sexo = "";
     }
 
     public Persona(String dni, String sexo) {
-        this.Persona(dni,"",0,sexo);
+        this.dni = dni;
+        this.nombre = "";
+        this.edad = 0;
+        this.sexo = sexo;
     }
 
-    void Persona(String dni, String nombre, int edad, String sexo) {
+    public  Persona(String dni, String sexo, String nombre, int edad) {
         this.dni = dni;
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
+
     }
+
 
     public String getDni() {
         return dni;
@@ -51,6 +58,10 @@ public class Persona {
         this.sexo = sexo;
     }
 
+    public boolean esMayor(){
+        return this.edad>=18;
+    }
+
     @Override
     public String toString() {
         return "Persona{" +
@@ -61,7 +72,4 @@ public class Persona {
                 '}';
     }
 
-    public boolean esMayorDeEdad(){
-        return this.getEdad()>=18;
-    }
 }

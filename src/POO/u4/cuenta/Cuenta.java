@@ -3,23 +3,24 @@ package POO.u4.cuenta;
 import org.w3c.dom.ls.LSOutput;
 
 public class Cuenta {
-    private Persona dniTitular;
+    private Persona apoderado;
     private double saldo;
 
     public Cuenta() {
     }
 
     public Cuenta(Persona prsn) {
-        this.Cuenta(prsn,0);
+        this.apoderado = prsn;
+        this.saldo = 0;
     }
 
-    public void Cuenta(Persona dniTitular, double saldo) {
-        this.dniTitular = dniTitular;
-        this.saldo = saldo;
+    public Cuenta(Persona asd, int i) {
+        this.apoderado = asd;
+        this.saldo = i;
     }
 
-    public String getDniTitular() {
-        return dniTitular.getDni();
+    public Persona getApoderado() {
+        return this.apoderado;
     }
 
 
@@ -27,21 +28,19 @@ public class Cuenta {
         return saldo;
     }
 
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
+
 
     @Override
     public String toString() {
         return "Cuenta{" +
-                "dniTitular='" + this.getDniTitular() + '\'' +
+                "dniTitular='" + this.getApoderado() + '\'' +
                 ", saldo=" + saldo +
                 '}';
     }
 
     public String depositar(double importe){
         if(!(importe<=0)){
-            this.setSaldo(this.getSaldo()+importe);
+            this.saldo = (this.getSaldo()+importe);
             return "ok";
         }else {
             return "error";
@@ -50,7 +49,7 @@ public class Cuenta {
 
     public String extraer(double importe){
         if(!((this.getSaldo()-importe)<0)){
-            this.setSaldo(this.getSaldo()-importe);
+            this.saldo = (this.getSaldo()-importe);
             return "Se realico ";
         }else{
             return "no se realizo";
