@@ -18,9 +18,10 @@ public class ClaseFrame extends JFrame {
     }
 
     public static void main(String[] args){
-        ClaseFrame Ventana = new ClaseFrame();
-
-        Ventana.setVisible(true);
+        //ClaseFrame Ventana = new ClaseFrame();
+        //Ventana.setVisible(true);
+        Ejer01 ejer = new Ejer01();
+        ejer.setVisible(true);
     }
 
 }
