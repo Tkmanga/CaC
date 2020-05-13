@@ -13,7 +13,7 @@ public class ClaseFrame extends JFrame {
         contenedor.setLayout(null);
 
         setTitle("Codo a codo: titulo de la ventana");//asignando titulo a la barra
-        setSize(400,200); //tamaño de la ventana
+        setSize(200,200); //tamaño de la ventana
         setLocationRelativeTo(null); //pone la ventana en el centro de la pantalla
     }
 
