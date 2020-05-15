@@ -61,7 +61,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="579" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsProyects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jproyects/jsProyects" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -193,7 +193,9 @@
       <workItem from="1588992307227" duration="2410000" />
       <workItem from="1589142882428" duration="2632000" />
       <workItem from="1589299336307" duration="41000" />
-      <workItem from="1589489540487" duration="40000" />
+      <workItem from="1589401862977" duration="625000" />
+      <workItem from="1589403976345" duration="237000" />
+      <workItem from="1589414154794" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="contenido basico">
       <created>1585272187864</created>
@@ -273,11 +275,11 @@
       <updated>1588885162620</updated>
     </task>
     <task id="LOCAL-00012" summary="Actividades 6 Jframe!">
-      <created>1589402177013</created>
+      <created>1589401881462</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1589402177013</updated>
+      <updated>1589401881462</updated>
     </task>
     <option name="localTasksCounter" value="13" />
     <servers />
@@ -338,20 +340,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="640" y="276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1588560440442" />
-    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1589402175944">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="972" y="134" key="CommitChangelistDialog2" timestamp="1589401880836">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1589402175944" />
-    <state x="972" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1588885161931" />
+    <state x="972" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1589401880836" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1586376122648">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586376122648" />
-    <state x="526" y="209" key="FileChooserDialogImpl" timestamp="1589489588974">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1589404211473">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="526" y="209" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1589489588974" />
-    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1589299373488" />
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1589404211473" />
     <state width="1877" height="362" key="GridCell.Tab.0.bottom" timestamp="1588913318561">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -408,11 +408,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="470" y="100" key="VCS.ChangeListViewerDialog/0.0.1366.768@0.0.1366.768" timestamp="1585666408905" />
-    <state x="550" y="194" key="Vcs.Push.Dialog.v2" timestamp="1589402179047">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1032" y="273" key="Vcs.Push.Dialog.v2" timestamp="1589401883914">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="550" y="194" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1589402179047" />
-    <state x="1032" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1588885165663" />
+    <state x="1032" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1589401883914" />
     <state x="92" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1588897041685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -422,11 +421,11 @@
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584722098503" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586482202896" />
-    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589402190297">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1249" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589401864361">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1589402190297" />
-    <state x="1249" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1588894016620" />
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1585666417887" />
+    <state x="1249" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1589401864361" />
     <state x="91" y="6" key="new project wizard" timestamp="1588964891108">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
