@@ -1,6 +1,6 @@
 package POO.u7;
 
-public class Excepcion {
+public class    Excepcion {
     String s1 = "";
     String s2 = "";
 

@@ -12,6 +12,8 @@ public class Main {
          */
 
         Ejer03 ejer03 = new Ejer03();
+        
+        
         ejer03.setVisible(true);
     }
 
